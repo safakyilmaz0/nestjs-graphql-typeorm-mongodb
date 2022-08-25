@@ -17,7 +17,7 @@ import { join } from 'path';
     }),
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb+srv://safakyilmaz:12345@cluster0.doqa9cs.mongodb.net/?retryWrites=true&w=majority',
+      url: 'mongodb+srv://',
       entities: [join(__dirname, '**/**.entity{.ts,.js}')],
       synchronize: true,
       useNewUrlParser: true,
